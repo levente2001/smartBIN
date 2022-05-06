@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Smartbin",
+    "slug": "expo-firebase",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "2.4.0",
+    "orientation": "portrait",
+    "icon": "./assets/6060.png",
+    "splash": {
+      "image": "/Users/kalolevente/Downloads/smartBIN/splash.png",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Allow $(PRODUCT_NAME) to access your photos",
+        "NSCameraUsageDescription": "Allow acces to your camera,(Photos will not be shown anywhere, it is just needed to take part in the competition.)",
+        "NSMicrophoneUsageDescription": "Allow $(PRODUCT_NAME) to access your microphone"
+      },
+      "bundleIdentifier": "com.yoshihiro2001.expofirebase"
+    },
+    "plugins": [
+      "expo-image-picker"
+    ],
+    "android": {
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.yoshihiro2001.expofirebase",
+      "versionCode": 4
+    }
+  }
+}
