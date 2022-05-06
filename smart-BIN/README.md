@@ -1,8 +1,7 @@
 
 ## Installation
 
-- `yarn ios` -- open on iOS
-- `yarn android` -- open on Android
+- `npm install`
 
 
 
